@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💸 Expense Tracker Web App
 
-## Getting Started
+A personal finance tracker built with **Next.js (TypeScript)**, **TailwindCSS**, and **Chart.js**. This app allows users to manage their income and expenses, view transaction history, and analyze spending patterns using interactive charts.
 
-First, run the development server:
+## 📦 Features
+
+### ✅ Add Income / Expense
+
+- Input fields: `Date`, `Title`, `Type` (Income / Expense), `Amount`
+- Data stored in Local Storage
+
+### 📋 Transaction List
+
+- Tabular view of all transactions
+- Edit/Delete functionality
+
+### 📊 Charts & Visualizations (powered by Chart.js)
+
+- **Bar Chart**: Monthly Income vs Expenses
+- **Pie Chart**: Category breakdown (e.g., Food, Transport, Bonus)
+
+### 💰 Financial Summary
+
+- Total Income
+- Total Expenses
+- Current Balance
+
+### 🎯 Extra Features
+
+- 📅 Filter by date range
+- 📈 Monthly comparisons over time
+
+---
+
+## 🛠 Tech Stack
+
+| Tool          | Purpose                       |
+| ------------- | ----------------------------- |
+| Next.js (TS)  | Main framework                |
+| Tailwind CSS  | Styling and responsive layout |
+| Chart.js      | Displaying financial charts   |
+| Local Storage | Data persistence in browser   |
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+# 1. Clone the repo
+git clone https://github.com/nnackpt/expense-tracker.git
+cd expense-tracker
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## License
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under [nnackpt](https://github.com/nnackpt) License.
